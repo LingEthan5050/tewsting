@@ -1,0 +1,296 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600";
+@import "https://px.animaapp.com/6369233800836eeaba201bfc.63692339cc32c89e70d727d1.tVCM18a.rcp.png";
+@font-face {
+  font-family: Hanson-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url("Hanson-Bold.89c7e4f4.otf") format("opentype");
+}
+
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.container-center-horizontal {
+  pointer-events: none;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000;
+  --true-v: #8859eb;
+  --white: #fff;
+  --font-size-l: 45px;
+  --font-size-m: 18px;
+  --font-size-s: 15px;
+  --font-size-xl: 50px;
+  --font-size-xs: 13px;
+  --font-size-xxs: 12px;
+  --font-family-hanson-bold: "Hanson-Bold", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+
+.poppins-medium-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+
+.index {
+  width: 1440px;
+  background-color: #363636;
+  border: 1px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.overlap-group1 {
+  height: 823px;
+  width: 1440px;
+  position: relative;
+}
+
+.bg {
+  height: 823px;
+  object-fit: cover;
+  width: 1439px;
+  position: absolute;
+  top: 0;
+  left: 1px;
+}
+
+.hero-bg {
+  height: 289px;
+  width: 1439px;
+  position: absolute;
+  top: 534px;
+  left: 0;
+}
+
+.hero-bg-1 {
+  height: 85px;
+  width: 1440px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.landing-text {
+  min-height: 295px;
+  width: 503px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 162px;
+  left: 105px;
+}
+
+.the-future-of-crypto-trading {
+  color: #bdbdbd;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  letter-spacing: 0;
+  min-height: 17px;
+  white-space: nowrap;
+  font-weight: 400;
+  line-height: 16.9px;
+}
+
+.overlap-group {
+  height: 195px;
+  width: 495px;
+  position: relative;
+}
+
+.the-crypto-trading {
+  color: #f5f5f5;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  letter-spacing: 0;
+  width: 495px;
+  font-weight: 600;
+  line-height: 65px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.next-gen {
+  -webkit-text-fill-color: transparent;
+  color: #0000;
+  font-family: var(--font-family-hanson-bold);
+  font-size: var(--font-size-l);
+  letter-spacing: 0;
+  text-fill-color: transparent;
+  white-space: nowrap;
+  background: linear-gradient(#2c66b8 0%, #8859ec 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 700;
+  line-height: 58.5px;
+  position: absolute;
+  top: 10px;
+  left: 105px;
+  -webkit-background-clip: text !important;
+}
+
+.enjoy-better-rates-w {
+  color: #0000;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  letter-spacing: 0;
+  min-height: 73px;
+  width: 413px;
+  margin-top: 10px;
+  line-height: normal;
+}
+
+.span0 {
+  color: #dfdfdf;
+  font-weight: 400;
+}
+
+.span1 {
+  color: var(--white);
+  font-weight: 400;
+}
+
+.span2 {
+  color: var(--true-v);
+  font-family: var(--font-family-hanson-bold);
+  font-weight: 700;
+}
+
+.bitcoin-logo {
+  height: 348px;
+  width: 348px;
+  position: absolute;
+  top: 140px;
+  left: 828px;
+}
+
+.nav {
+  height: 30px;
+  min-width: 1224px;
+  align-items: center;
+  gap: 748px;
+  display: flex;
+  position: absolute;
+  top: 17px;
+  left: 107px;
+}
+
+.logo {
+  min-width: 120px;
+  align-items: center;
+  gap: 7px;
+  margin-top: 0;
+  display: flex;
+}
+
+.vector-1 {
+  height: 26px;
+  width: 42px;
+}
+
+.waves {
+  color: var(--white);
+  font-family: var(--font-family-hanson-bold);
+  font-size: var(--font-size-s);
+  letter-spacing: 0;
+  min-height: 16px;
+  min-width: 69px;
+  margin-bottom: 0;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.group-9 {
+  min-width: 358px;
+  align-items: center;
+  display: flex;
+}
+
+.group-7 {
+  height: 18px;
+  min-width: 64px;
+  align-items: center;
+  gap: 6px;
+  display: flex;
+}
+
+.services {
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 51px;
+  line-height: normal;
+}
+
+.vector {
+  height: 3px;
+  width: 5px;
+  margin-top: 1px;
+}
+
+.group-6 {
+  height: 18px;
+  min-width: 74px;
+  align-items: center;
+  gap: 6px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.company {
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 61px;
+  line-height: normal;
+}
+
+.sign-in {
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 41px;
+  margin-left: 22px;
+  line-height: normal;
+}
+
+.overlap-group-1 {
+  background-color: var(--true-v);
+  height: 30px;
+  min-width: 111px;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: 24px;
+  padding: 0 21px;
+  display: flex;
+}
+
+.get-started {
+  letter-spacing: 0;
+  min-height: 18px;
+  min-width: 69px;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=index.e1b8c111.css.map */
